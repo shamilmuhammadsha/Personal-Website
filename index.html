@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
@@ -7,14 +7,166 @@
     <title>Personal Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="images/person-1824144_640.webp" rel="icon">
 </head>
 
 <body>
-    <header>
+    <header class="bg-success text-white" style="position:fixed; width:100%; z-index:1;">
         <div class="row">
-            
+            <div class="col-9 col-md-6 p-2 pt-3 ps-5">
+                <h5>MUHAMMAD SHAMIL KK</h5>
+            </div>
+            <div class="col-3 col-md-6">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler mx-auto collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home-section">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#service-section">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#experience-section">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact-section">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#connect-section">Connect Me</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
         </div>
     </header>
+    <hr>
+    <section class="" id="home-section" style="padding-top:5em;">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-md-6">
+                    <img src="images/IMG_5059.JPG" alt="profile picture" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="d-flex justify-content-center pt-3">PYTHON FULL STACK DEVELOPER</h3>
+                    <h5 class="d-flex justify-content-center">CALICUT,KERALA</h5><br>
+                    <p class="d-flex justify-content-center">"One day you will realize what you are, And the life
+                        begins"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service-section">
+        <div class="container bg-success pt-4 mt-5">
+            <h3 class="text-center pt-4">SERVICES</h3>
+            <div class="row p-5 ">
+                <div class="col-md-4 ">
+                    <div class="card text-center mt-4" style="height: 25em;">
+                        <img src="images/Simage1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Designing</h5>
+                            <p class="card-text">I provide my skills and experience to design
+                                compelling and attractive websites </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mt-4" style="height: 25em;">
+                        <img src="images/Simage2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Developing</h5>
+                            <p class="card-text">A web developer is a programmer responsible for web designs into
+                                functional websites </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mt-4" style="height: 25em;">
+                        <img src="images/simage.jpeg" class="card-img-top pt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack</h5>
+                            <p class="card-text">Full Stack Developers work in performing both front- and back-end
+                                operations on websites</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience-section">
+        <div class="container bg-success mt-5 pt-4">
+            <h3 class="text-center pt-4">EXPERIENCE</h3>
+            <div class="row p-5">
+                <div class="col-sm-6">
+                    <div class="card  mt-4" style="height: 15em;">
+                        <div class="card-body">
+                            <img src="images/Eimage.png" class="card-img-top ">
+                            <h5 class="card-title text-center">Internship</h5>
+                            <p class="card-text text-center">In python full stack development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card mt-4" style="height: 15em;">
+                        <img src="images/Eimage2.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Deploma</h5>
+                            <p class="card-text text-center">In computer hardware engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section class="container mt-5 bg-success" id="contact-section">
+        <h4 class="text-center pt-5">CONTACT</h4>
+        <div class="p-5">
+            <div class="row">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your comments</label>
+                    <textarea class="form-control" placeholder="Type here..." id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                    <div class="text-center pt-4">
+                        <button type="submit" class="btn btn-dark" style="width: 100%;">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="connect-section">
+        <div class="container">
+            <h6 class="text-center pt-5">CONNECT ME</h6>
+            <div class="row">
+                <div class="col-md-12 text-center pt-4">
+                    <img src="images/instagram.webp" alt="" style="width: 6em;">
+                    <img src="images/facebook.jpg" alt="" style="width: 5.5em;">
+                    <a
+                        href="https://www.linkedin.com/in/muhammad-shamil-a51090235?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BZmjQFPFRnKK14Si5h1Byg%3D%3D"><img
+                            src="images/linked-in.webp" alt="" style="width: 6.2em;"></a>
+
+                    <p class="pt-4">Copyright 2023 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
