@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-toggler {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+}
+
+.menubar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.anime:hover {
+    background-color: antiquewhite;
+    animation: animate 2s linear .5s infinite;
+
+
+}
+
+.image1:hover {
+    background-color: rgb(211, 211, 207);
+    transform: scale(0.8);
+    transition: 1s;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+.yoo,
+.yeh {
+    color: blueviolet;
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+
+}
+
+#home-section {
+    animation: effect 3s linear .5s infinite;
+
+}
+
+/* @media (max-width:400px) {
+    .hamburg {
+        padding-right: 50px;
+        align-items: center;
+    }
+
+} */
+
+@keyframes effect {
+    from {
+        background-color: rgb(157, 153, 153);
+    }
+
+    to {
+        background-color: lightgrey;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-color: lightgray;
+    }
+
+    50% {
+        background-color: rgb(158, 158, 158);
+    }
+
+    100% {
+        background-color: dimgray;
+    }
+}
+
+/* loadingpage */
+.secbody {
+    margin: 0px;
+}
+
+.loadingpage {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingpage div {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.loader1,
+.loader2,
+.loader3 {
+    animation: loadanime .5s linear .1s infinite;
+}
+
+.loader2 {
+    animation-delay: .2s;
+}
+
+.loader3 {
+    animation-delay: .3s;
+}
+
+@keyframes loadanime {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,25 @@
+/* .section1 {
+    width: 800px;
+    height: 500px;
+    background-color: aquamarine;
+     
+}
+@media (max-width:500px){
+    .section1 {
+        background-color: rgb(237, 243, 237);
+        font-size: 12px;
+        padding-left: 50px;
+    }
+
+} */
+/* .ppp{
+    color: blueviolet;
+} */
+p.ppp{
+    color: blue;
+}
+
+.resp{
+    max-width: 500px;
+    width: 100%;
+}
